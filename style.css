@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+             --Cyan: hsl(179, 62%, 43%);
+             --Bright-Yellow: hsl(71, 73%, 54%);
+
+
+             --Light-Gray: hsl(204, 43%, 93%);
+             --GrayishBlue: hsl(218, 22%, 67%);
+}
+
+* {
+             padding: 0;
+             margin: 0;
+             box-sizing: border-box;
+}
+
+.attribution {
+             font-size: 11px;
+             text-align: center;
+             margin-top: 10px;
+}
+
+.attribution a {
+             color: hsl(228, 45%, 44%);
+}
+
+body {
+             font-family: 'Karla', sans-serif;
+             font-size: 16px;
+             font-weight: 400;
+}
+
+.xxx {
+             width: 900px;
+             margin: 0 auto;
+             margin-top: 10%;
+             border-radius: 10px;
+
+}
+
+.contenedor {
+             border: 1px solid blue;
+             background-color: white;
+             padding: 20px;
+             border-radius: 10px 10px 0 0;
+             height: 200px;
+}
+
+.contenedor h1 {
+             color: var(--Cyan);
+}
+
+.sup {
+             color: var(--Bright-Yellow);
+
+}
+
+.sup2 {
+             color: var(--GrayishBlue);
+             margin-top: 10px;
+}
+
+
+
+
+.container {
+             display: flex;
+             border: 1px solid red;
+             border-radius: 0 0 10px 10px;
+
+}
+
+.container__uno {
+             width: 50%;
+             background-color: #2bb3b1;
+             padding: 20px;
+}
+
+.container__dos {
+             width: 50%;
+             height: 200px;
+             background-color: #4abebd;
+             padding: 20px;
+}

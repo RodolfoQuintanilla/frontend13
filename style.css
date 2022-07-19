@@ -29,18 +29,19 @@ body {
              font-family: 'Karla', sans-serif;
              font-size: 16px;
              font-weight: 400;
+             background-color: var(--Light-Gray);
 }
 
 .xxx {
-             width: 900px;
+             width: 700px;
              margin: 0 auto;
              margin-top: 10%;
              border-radius: 10px;
-
+             box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.09);
 }
 
 .contenedor {
-             border: 1px solid blue;
+
              background-color: white;
              padding: 20px;
              border-radius: 10px 10px 0 0;
@@ -66,7 +67,7 @@ body {
 
 .container {
              display: flex;
-             border: 1px solid red;
+
              border-radius: 0 0 10px 10px;
 
 }
@@ -74,12 +75,59 @@ body {
 .container__uno {
              width: 50%;
              background-color: #2bb3b1;
-             padding: 20px;
+             padding: 35px;
+             color: white;
+             border-radius: 0 0 0 10px;
 }
 
 .container__dos {
              width: 50%;
-             height: 200px;
              background-color: #4abebd;
-             padding: 20px;
+             padding: 35px;
+             color: white;
+             border-radius: 0 0 10px 0;
+}
+
+span {
+             font-weight: 700;
+             font-size: 16px;
+}
+
+button {
+             background-color: var(--Bright-Yellow);
+             width: 100%;
+             height: 40px;
+             border: none;
+             border-radius: 5px;
+             color: white;
+             box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.09);
+             cursor: pointer;
+}
+
+button:hover {
+             box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.627);
+             background-color: hsla(71, 73%, 54%, 0.767);
+}
+
+@media screen and (max-width:717px) {
+             .xxx {
+                          width: 400px;
+             }
+
+
+             .container {
+                          display: flex;
+                          flex-wrap: wrap;
+             }
+
+             .container__uno {
+                          width: 400px;
+                          border-radius: 0;
+             }
+
+             .container__dos {
+                          width: 400px;
+                          border-radius: 0 0 10px 10px;
+             }
+
 }
